@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{C9091EBB-8636-D10E-F335-73DC6085CA9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AnimalSlingshot\Scripts\AnimalSlingshot.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\Bullet.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\ButtonScale.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\Elastic.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\MenuButtons.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\ScoreText.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\ShapeButton.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\ShapeButtons\AnimalButton.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\Shot.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\Survival.cs" />
+     <Compile Include="Assets\AnimalSlingshot\Scripts\Target.cs" />
+     <Compile Include="Assets\BallBasket\Scripts\BallBasket.cs" />
+     <Compile Include="Assets\BallBasket\Scripts\BasketBall.cs" />
+     <Compile Include="Assets\BallBasket\Scripts\DemoBall.cs" />
+     <Compile Include="Assets\BallBasket\Scripts\Held.cs" />
+     <Compile Include="Assets\BallBasket\Scripts\ScaleUI.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\BorderPiece.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\Cart.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\Coal.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\DirectionButton.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\FollowCamera.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\Lead.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\Money.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\PowerBar.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\Stats.cs" />
+     <Compile Include="Assets\GoldTrain\Scripts\Train.cs" />
+     <Compile Include="Assets\Jackpot\Scripts\Jackpot.cs" />
+     <Compile Include="Assets\Jackpot\Scripts\myLight.cs" />
+     <Compile Include="Assets\LetterRain\Scripts\Dictionary.cs" />
+     <Compile Include="Assets\LetterRain\Scripts\Letter.cs" />
+     <Compile Include="Assets\LetterRain\Scripts\LinePiece.cs" />
+     <Compile Include="Assets\LetterRain\Scripts\Rain.cs" />
+     <Compile Include="Assets\MainMenu\Scripts\ButtonFunctions.cs" />
+     <Compile Include="Assets\MainMenu\Scripts\CreateMainMenu.cs" />
+     <Compile Include="Assets\MainMenu\Scripts\LandScape.cs" />
+     <Compile Include="Assets\MainMenu\Scripts\Loading.cs" />
+     <Compile Include="Assets\MainMenu\Scripts\Portrait.cs" />
+     <Compile Include="Assets\MainMenu\Scripts\ScalingBackground.cs" />
+     <Compile Include="Assets\Maze\Scripts\Generation.cs" />
+     <Compile Include="Assets\Maze\Scripts\HWall.cs" />
+     <Compile Include="Assets\Maze\Scripts\IWall.cs" />
+     <Compile Include="Assets\Maze\Scripts\JoyStick.cs" />
+     <Compile Include="Assets\Maze\Scripts\Room.cs" />
+     <Compile Include="Assets\Maze\Scripts\Scale.cs" />
+     <Compile Include="Assets\Maze\Scripts\Sphere.cs" />
+     <Compile Include="Assets\Maze\Scripts\VWall.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\Ball.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\Comet.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\Foreground.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\Obstacle.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\ObstacleObject.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\Paddle.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\Poutline.cs" />
+     <Compile Include="Assets\SpacePod\Scripts\SpacePod.cs" />
+     <None Include="Assets\LetterRain\Dictionary\WordList.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

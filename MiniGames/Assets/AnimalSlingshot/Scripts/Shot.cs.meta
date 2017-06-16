@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e49282872359cd442bf63212c01a5f59
+timeCreated: 1485394130
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rend: {instanceID: 0}
+  - Cat: {fileID: 21300000, guid: d0d3ff2387343c04f9c889b2249e5465, type: 3}
+  - Dog: {fileID: 21300000, guid: e39f3fcd05ee7a7488bbfcc42bd077c0, type: 3}
+  - Pig: {fileID: 21300000, guid: 58b852f4c9ed7ee4b93c9c74a837a3e0, type: 3}
+  - Bear: {fileID: 21300000, guid: 511e3562a698ef14a855a520dd710338, type: 3}
+  - game: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

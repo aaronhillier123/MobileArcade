@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8c0378e48e6e5ec44b46eab57a209780
+timeCreated: 1485394065
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Current: {instanceID: 0}
+  - Loaded: {instanceID: 0}
+  - Target: {fileID: 1000010687646270, guid: bc93e3c81607a484089420b511a1cfd2, type: 2}
+  - MainButton: {instanceID: 0}
+  - Bullet: {fileID: 1254079726955660, guid: e3769b97d0e2b3342bf6310c6d152fd4, type: 2}
+  - GoodScoreText: {instanceID: 0}
+  - BadScoreText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
